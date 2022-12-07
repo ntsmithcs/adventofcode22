@@ -9,4 +9,3 @@ with open("calories.txt", "r") as f:
             if current > largest:
                 largest = current
             current = 0
-    print(str(largest))
